@@ -1,3 +1,10 @@
+/**
+ * Node.java
+ * Author: Luke O’Drobinak
+ * Date: 09/21/2023
+ * Collaborators: Franklin Young, Ethan Ayers, Hugh Karmozyn
+ * Citations: Google, Oracle Java Docs, GitHub Documentation, Stack Overflow
+ **/
 public class Node<T> {
     private Node parentNode;
     private Node childNode;
