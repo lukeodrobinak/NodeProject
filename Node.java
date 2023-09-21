@@ -48,7 +48,11 @@ public class Node<T> {
 
     //toString and equals methods (Overrides)
     public String toString() {
-        return "Node: " + value.toString();
+        if (value == null) {
+            return "Node: null";
+        } else {
+            return "Node: " + value.toString();
+        }
     }
 
     public boolean equals(Node node) {
